@@ -10,8 +10,8 @@
     <title>OptimusTech</title>
 </head>
 
-<body class="paidetodos">
-    <nav class="containerFilho">
+<body>
+    <nav class="containerNavegacao"> 
         <div class="logoInicial">
             <img src="img/logo.png" alt="Logo inicial da página">
             <h1><a href="">OptimusTech</a></h1>
@@ -31,14 +31,14 @@
     </nav>
 
     <main>
-        <div class="cabeçalhoCaixa">
+        <header class="cabeçalhoCaixa">
             <span>Sobre nós</span>
             <h2>Por que somos diferentes?</h2>
             <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se
                 concentrarem naquilo que é realmente importante para elas.</p>
-        </div>
+        </header>
 
-        <section class="metricasCaixa">
+        <section class="metricasContainer">
             <div class="metricaItem">
                 <h3 class="meticaNumero">400+</h3>
                 <p class="metricaTitulo">Projetos concluídos</p>
@@ -67,21 +67,77 @@
             </div>
         </section>
 
-        <section class="vagasCaixa">
+        <section class="vagasContainer">
             <span>Vagas abertas!</span>
             <h4>Estamos procurando por talentos</h4>
             <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
             <img src="img/vagas.png" alt="Imagem de pessoas em uma reunião">
 
-            <div>
-                
+            <div class="vagasCaixa">
+                <span class="vagasDepartameto">Design</span>
+                <div class="funcaoCaixa">
+                    <span class="vagasFuncao">Product Designer</span>
+                    <div>
+                        <span>Full-time</span>
+                        <span>Faixa salarial: R$7.000</span>
+                    </div>
+                </div>
+
+                <div class="funcaoCaixa">
+                    <span class="vagasFuncao">Ux Designer</span>
+                    <div>
+                        <span>Full-time</span>
+                        <span>Faixa salarial: R$6.000</span>
+                    </div>
+                </div>
             </div>
 
-            <div>
+            <div class="vagasCaixa">
+                <span class="vagasDepartameto">Desenvolvimento de Software</span>
+                <div class="funcaoCaixa">
+                    <span class="vagasFuncao">Desenvolvedor(a) iOS</span>
+                    <div>
+                        <span>Full-time</span>
+                        <span>Faixa salarial: R$8.000</span>
+                    </div>
+                </div>
 
+                <div class="funcaoCaixa">
+                    <span class="vagasFuncao">Desenvolvedor(a) Front-end</span>
+                    <div>
+                        <span>Full-time</span>
+                        <span>Faixa salarial: R$7.000</span>
+                    </div>
+                </div>
+
+                <div class="funcaoCaixa">
+                    <span class="vagasFuncao">Desenvolvedor(a) Back-end</span>
+                    <div>
+                        <span>Full-time</span>
+                        <span>Faixa salarial: R$8.000</span>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="depoimentosContainer">
+            <span class="depoimentosHeader">Veja o que nossos colaboradores falam sobre nós</span>
+            <h5>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de
+                auxílio possível.</h5>
+            <img src="img/Avatar.png" alt="Avatar">
+            <span class="avatarNome">Júlia Castro</span>
+            <span class="avatarFuncao">Desenvolvedora Web</span>
+        </section>
+
+        <footer class="rodapeContainer">
+            <h6>Acompanhe as nossas oportunidades</h6>
+            <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
+            <form class="rodapeForm">
+                <input type="text" name="email" id="email" placeholder="Seu e-mail">
+                <button type="submit">Cadastrar</button>
+            </form>            
+            <span>© 2022 OptimusTech. Todos os direitos reservados.</span>
+        </footer>
     </main>
 </body>
 
